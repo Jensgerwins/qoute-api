@@ -1,0 +1,52 @@
+*{
+    background-color: aqua;
+ 
+}
+body {
+    box-sizing:border-box;
+    max-width: 100%;
+    min-width: 40px;
+    
+}
+h2 {
+    margin-right: 10em;
+    background-color: darkcyan;
+}
+
+
+#header {
+background-color:darkcyan;
+display: flex;
+justify-content: center;
+width: auto;
+margin: 0 auto;
+padding: 70px;
+border: 1px solid whitesmoke;
+}
+
+
+.quote {
+  padding: 3px;
+  background-color:cornflowerblue;
+ height: 60px; 
+padding: 10px;
+border: 1px solid green;  
+}
+
+#ulListen {
+    margin-top: 8em;
+    margin-left:7em;
+}
+#ulListen::before {
+    content: "1. ";
+    font-size: medium;
+}
+
+#authour-p {
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 7em;
+}
+#authour-p::before {
+    content: "-";
+}
